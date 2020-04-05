@@ -32,7 +32,7 @@ class LastProject extends React.Component {
                 {[25, 26, 27, 28, 30, 31, 20, 21, 22, 23, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 
                 ].map((num, idx) => (
                     <div className="caroussel-gallery-container" key={idx}>
-                        <img className= "caroussel-gallery-img" src={`./gis_projects/GIS_${num}.jpg`}  />
+                        <img className= "caroussel-gallery-img" src={`./GIS_${num}.jpg`}  />
                     </div>
                 ))}
             </div>
