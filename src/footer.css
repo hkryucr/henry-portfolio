@@ -1,0 +1,22 @@
+.footer{
+    margin: 2rem 0 ;
+    padding: 2rem 0 ;
+    display: flex;
+    justify-content: center;
+    font-size: 0.85rem;
+    flex-direction: column;
+}
+
+.footer-breaker {
+    max-width: 100%;
+    border: 0;
+    height: 1px;
+    background: #e3e3e3;
+    background-image: linear-gradient(to right, white, #e3e3e3, white);
+    margin: 15px 0;
+}
+
+.footer-text{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,40 @@
+.header {
+    margin: auto;
+    max-width: 750px;
+    padding: 3rem 2rem 1rem 2rem;
+    text-align: center;
+}
+
+.header-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-image {
+    width: 125px;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.profile-name {
+    font-size: 3rem;
+}
+
+.profile-details {
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-style: normal;
+    color: #aaa;
+    margin: 15px;
+}
+
+.profile-socials a {
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.profile-socials > a > svg {
+    font-size: 1.5rem;
+} 

@@ -1,0 +1,58 @@
+.caroussel-gallery{
+    width: 50vw;
+    height: 40vw;
+}
+
+.caroussel-gallery-container {
+    display: flex;
+    width: 50vw;
+    height: 40vw;
+    object-fit: cover
+}
+
+.caroussel-gallery-img{
+    width: 50vw;
+    height: 40vw;
+    object-fit: contain;
+}
+
+@media only screen and (max-width: 736px) {
+    .caroussel-gallery{
+        width: 80vw;
+        height: 70vw;
+    }
+
+    .caroussel-gallery-container {
+        display: flex;
+        width: 80vw;
+        height: 70vw;
+        object-fit: cover
+    }
+
+    .caroussel-gallery-img{
+        width: 80vw;
+        height: 70vw;
+        object-fit: contain;
+    }
+}
+
+
+@media only screen and (min-width: 1100px) {
+    .caroussel-gallery{
+        width: 40vw;
+        height: 30vw;
+    }
+
+    .caroussel-gallery-container {
+        display: flex;
+        width: 40vw;
+        height: 30vw;
+        object-fit: cover
+    }
+
+    .caroussel-gallery-img{
+        width: 40vw;
+        height: 30vw;
+        object-fit: contain;
+    }
+}
