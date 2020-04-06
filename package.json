@@ -20,6 +20,10 @@
     "react-flickity-component": "^3.5.0",
     "react-scripts": "3.4.1"
   },
+  "engines": {
+    "npm": "6.13.6",
+    "node": "13.7.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
