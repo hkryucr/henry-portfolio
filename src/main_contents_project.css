@@ -1,7 +1,7 @@
 .main-contents-project{
     box-sizing: border-box;
     width: 70%;
-    padding-left: 2rem;
+    padding-left: 4rem;
     line-height: 1.2rem;
 }
 
@@ -48,6 +48,7 @@
     justify-content: center;
     padding-bottom: 1rem;
     border-bottom: 1px solid lightgray;
+    line-height: 1.4rem;
 }
 
 .project-info-feature{

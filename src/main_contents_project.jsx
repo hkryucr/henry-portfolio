@@ -31,7 +31,7 @@ class MainContentsProject extends React.Component{
             ))}
           </div>
           <div className="project-info-img">
-            <div className="project-info-img-screenshot">Screenshot</div>
+            <div className="project-info-img-screenshot">Project Overview</div>
             <img src={input.imgUrl} alt="" />
           </div>
         </div>

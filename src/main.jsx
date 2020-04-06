@@ -20,15 +20,15 @@ class Main extends React.Component {
         liveLink: "https://lit-atoll-81167.herokuapp.com/",
         stacks: "(Node.js, Express.js, MongDB, React/Flux, JavaScript, CSS)",
         info:
-          "A single page app designed to help a group decide on a venue for their next gathering. Each user can vote on each venue offered to the group (based on location and filters).",
+          "A web app inspired by Tinder to help groups make decisions on restaurants or bars.",
         infoFeatures: [
-          "Improved user experience by implementing a fully responsive, device-agnostic design using media query and flexbox ",
+          "Improved user experience by implementing a fully responsive, device-agnostic design using media query and flexbox.",
           "Removed unnecessary scrolling for users by creating a custom modal framework using flux architecture.",
-          "Integrated Mapbox API with custom search functionality to dynamically present business locations based on the current coordinate associated with a neighborhood in San Francisco.",
-          "Achieved secure user authentication by Implementing local strategy with Passport.js, using BCrypt for password hashing.",
-          "Incorporated React-Redux container to architect highly scalable and uni-directional front-end state management.",
+          "Integrated Mapbox API with custom search functionality to dynamically present business locations based on the shown neighborhood on the map.",
+          "Implemented secure user authentication by utilizing local strategy with Passport.js and BCrypt for password hashing.",
+          "Architected highly scalable and uni-directional front-end state management by incorporating React-Redux container."
         ],
-        imgUrl: "chicken_tinder.gif",
+        imgUrl: "https://portfolio-henry.s3-us-west-1.amazonaws.com/CT_Overview.gif",
       };
       const input2 = {
         title: "Yocal",
@@ -37,30 +37,29 @@ class Main extends React.Component {
         stacks:
           "(Ruby on Rails, PostgreSQL, React/Redux, JavaScript, CSS, HTML)",
         info:
-          "Yocal is a single-page web clone application inspired by Yelp to help you find restaurants near you. Yocal is built using Ruby on Rails with a PostgreSQL on the back-end, and React.js, Redux on the front-end.",
+          "A clone app showcasing the major features and functions on Yelp.",
         infoFeatures: [
-          "Incorporated real data from Yelp Fusion API into the project’s database to ease off the data seeding process.",
-          "Integrated Google Maps API with geolocation-based searching to display the location of businesses on a map.",
-          "Enabled users to search by a business or category name by implementing auto-complete search bars with native JavaScript.",
-          "Built out numerous React Components including forms, carousels, business list items, and business reviews.",
-          "Utilized AWS S3 and Active Storage for security and scalability and built a user interface that users can upload photos.",
-          "Optimized database usage by eliminating N+1 queries, writing SQL queries and reducing server load through the utilization of Active Record associations.",
+          "Merged real data from Yelp Fusion API with the project’s database to make the data seeding process more efficient.",
+          "Integrated geolocation-based searching with Google Maps API to display the location of businesses on a map.",
+          "Maximized user experience by front-loading search keywords within auto-complete search bars with native JavaScript.",
+          "Constructed numerous React components including forms, carousels, and reviews to imitate Yelp’s interface.",
+          "Created function where users can upload photos by utilizing AWS S3 and Active Storage for scalability.",
+          "Optimized database usage by eliminating N+1 queries within Active Record associations.",
           "Built full user authentication for signup/login using BCrypt",
         ],
-        imgUrl: "chicken_tinder.gif",
+        imgUrl: "https://portfolio-henry.s3-us-west-1.amazonaws.com/Yocal_Overall_App.gif",
       };
       const input3 = {
         title: "3D Path Finder",
         gitLink: "https://github.com/hkryucr/3d-path-finder",
         liveLink: "https://hkryucr.github.io/3d-path-finder/",
         stacks: "(JavaScript, CSS, HTML)",
-        info:
-          "A single page app designed to help a group decide on a venue for their next gathering. Each user can vote on each venue offered to the group (based on location and filters).",
+        info: "A single page app that visualizes path finding algorithms.",
         infoFeatures: [
-          "Utilized pure CSS and HTML to build three-dimensional board and tiles for improved visualization.",
+          "Applied pure CSS and HTML to build a three-dimensional board and tiles for improved visualization.",
           "Built a tree data structure to find the shortest path from the start node to the end node by implementing different types of algorithms.",
         ],
-        imgUrl: "chicken_tinder.gif",
+        imgUrl: "https://portfolio-henry.s3-us-west-1.amazonaws.com/Path_Finder.gif",
       };
 
       if(number === 0){
