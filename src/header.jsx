@@ -15,8 +15,7 @@ class Header extends React.Component{
               </div>
               <div className="profile-name">Henry Ryu</div>
               <div className="profile-details">
-                SF-based software developer trained in React + Redux, Node.js
-                and Express.js, Ruby on Rails, PostgreSQL, and HTML5.
+                SF-based software developer trained in React, Redux, Node.js, Express.js, Ruby on Rails, PostgreSQL, JavaScript, CSS and HTML5.
               </div>
               <div className="profile-socials">
                 <a
